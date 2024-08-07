@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://souravbosu2178:AgKQQmO1zyGRbzN6@cluster0.buvdspd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://emmansantoa3:SmaI5gdhayWFzouF@cluster0.ri0swli.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "techvj")
 
 # Auto Delete Information
@@ -59,9 +59,9 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_API = environ.get("SHORTLINK_API", "b57ccfed13ee9181996d70b2aa66a2880a867b6f") # shortlink api
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "teraboxlinks.com") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/backupmoviezone/7") # how to open link 
+SHORTLINK_API = environ.get("SHORTLINK_API", "5ac92c0b20d9afdd57b43cf6254c1997242c5a9a") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "gplinks.com") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/backupmoviezone/3") # how to open link 
 
 # Website Info:
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
