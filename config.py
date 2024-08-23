@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "99dff6c471774c2be6ff3d4623a6c0c0")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/effb3d78518ccf75a2cd9.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6366880905').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6366880905 7023006442').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "sbfilestorerobot") # without @
 PORT = environ.get("PORT", "8080")
 
