@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "24579269"))
 API_HASH = environ.get("API_HASH", "99dff6c471774c2be6ff3d4623a6c0c0")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/effb3d78518ccf75a2cd9.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6366880905').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "sbfilestorerobot") # without @
 PORT = environ.get("PORT", "8080")
@@ -59,9 +59,9 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_API = environ.get("SHORTLINK_API", "5ac92c0b20d9afdd57b43cf6254c1997242c5a9a") # shortlink api
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "gplinks.com") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/backupmoviezone/3") # how to open link 
+SHORTLINK_API = environ.get("SHORTLINK_API", "29b557074aa857e56ca7fd6ad2e42ef2788e8443") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "modijiurl.com") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/how_to_download_moviezone/5") # how to open link 
 
 # Website Info:
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
