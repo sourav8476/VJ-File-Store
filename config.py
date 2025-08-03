@@ -18,8 +18,8 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "24579269"))
-API_HASH = environ.get("API_HASH", "99dff6c471774c2be6ff3d4623a6c0c0")
+API_ID = int(environ.get("API_ID", ""))
+API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/effb3d78518ccf75a2cd9.jpg')).split() # Bot Start Picture
@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://emmansantoa3:SmaI5gdhayWFzouF@cluster0.ri0swli.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "")
 DB_NAME = environ.get("DB_NAME", "techvj")
 
 # Auto Delete Information
